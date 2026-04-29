@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #90EE90;
+}
+
+.container {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Glow effect */
+.container.active {
+    box-shadow: 0 0 20px blue, 0 0 40px blue;
+}
